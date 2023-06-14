@@ -28,10 +28,12 @@ const InputContainer = styled.div`
     }
 `
 
-export default Input = ({value}) => {
+const Input = ({value}) => {
     return (
       <InputContainer>
        <input disabled value={value}/>
       </InputContainer>
     );
   }
+
+  export default Input

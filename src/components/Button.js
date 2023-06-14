@@ -14,10 +14,12 @@ const ButtonContainer = styled.button`
     }
 `
 
-export default Button = ({label, onClick}) => {
+const Button = ({label, onClick}) => {
     return (
       <ButtonContainer onClick={onClick} type="button">
        {label}
       </ButtonContainer>
     );
   }
+
+  export default Button
